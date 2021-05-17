@@ -1,0 +1,52 @@
+{
+  "store.custom#privacidade": {
+    "blocks": [
+      "flex-layout.row#privacidade"
+    ]
+  },
+
+  "flex-layout.row#privacidade": {
+    "children": [
+      "flex-layout.col#text-privacidade"
+    ],
+    "props":{
+      "blockClass":"content-institucional"
+    }
+  },
+
+  "flex-layout.col#text-privacidade": {
+    "children": [
+      "rich-text#title-privacidade",
+      "flex-layout.row#privacy"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-privacidade": {
+    "props": {
+      "text":
+      "Política de Privacidade",
+      "blockClass": "title-about"
+    }
+  },
+  "flex-layout.row#privacy":{
+    "children":[
+      "flex-layout.col#col-privacy"
+    ]
+  },
+  "flex-layout.col#col-privacy":{
+    "children":[
+      "rich-text#privacidade"
+    ]
+  },
+
+  "rich-text#privacidade": {
+    "props": {
+      "text": "**RECONHECEMOS A IMPORTÂNCIA DA PRIVACIDADE DE NOSSOS CLIENTES E PENSANDO NISSO ESTABELECEMOS UMA POLÍTICA PARA PROTEGER SUAS INFORMAÇÕES.** \n\n Qualquer informação fornecida pelos usuários será coletada e guardada de acordo com os mais rígidos padrões de segurança e confiabilidade; \n\n As Informações pessoais que nos forem fornecidas pelos usuários serão coletadas por meios éticos e legais. Essa coleta poderá ter um ou mais propósitos, sobre os quais nossos usuários serão informados; \n\n A menos que tenhamos determinação legal ou judicial, as informações dos usuários jamais serão transferidas a terceiros ou usadas para finalidades diferentes daquelas para as quais foram coletadas; \n\n Toda nossa estrutura está protegida por servidores e sistemas de segurança (firewalls), hospedada em Datacenter, seguindo rigorosas normas internacionais de segurança física e lógica; \n\n Todas as informações e transações que trafegam por nossa loja virtual são protegidas por protocolo de segurança padrão SSL com criptografia forte de 128 bits, certificado também pela Digicert, uma das maiores empresas de certificação de segurança no mundo digital, especializada em segurança no mercado virtual mundial. \n\n Para comprar no site MIlliOnline, os usuários deverão ser maiores de 18 (dezoito) anos, e civilmente capazes, nos moldes da legislação civil vigente no Brasil. No caso de ser constatado qualquer dano cometido por agentes total ou relativamente incapazes, com ou sem permissão de seus pais, tutores ou representantes legais, estes serão responsáveis por todo os atos praticados pelos menores.",
+      "blockClass": "about"
+    }
+  }
+}

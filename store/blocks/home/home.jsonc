@@ -1,0 +1,1214 @@
+{
+  "store.home": {
+    "blocks": [
+      "responsive-layout.desktop#promotions-tag",
+      "responsive-layout.desktop#banners",
+      "responsive-layout.desktop#content",
+      "responsive-layout.mobile#mobile"
+    ]
+  },
+  /////
+  "responsive-layout.desktop#promotions-tag":{
+    "children":[
+      "slider-layout#promotions-tag"
+    ]
+  },
+      "slider-layout#promotions-tag": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "autoplay":{
+            "timeout": 10000,
+            "stopOnHover": false
+          },
+          "showNavigationArrows": "never",
+          "showPaginationDots":"never",
+          "blockClass": "promotions-tag"
+        },
+        "children": ["rich-text#promo-tag1", "rich-text#promo-tag2"]
+      },
+            "rich-text#promo-tag1": {
+              "props": {
+                "text": "10% OFF na primeira compra. Aproveite",
+                "blockClass":"promotions-tags"
+              }
+            },
+            "rich-text#promo-tag2": {
+              "props": {
+                "text": "FRETE GRÁTIS ACIMA DE R$ 299,00",
+                "blockClass":"promotions-tags"
+              }
+            },  
+  //////
+//////////////////////////
+/////////////////////////
+/*******  Desktop Banners ********/
+/////////////////////////
+/////////////////////////   
+  "responsive-layout.desktop#banners":{
+    "children":[
+      "slider-layout#banner-dft",
+      // "responsive-layout.desktop#banner-bullet",
+      "flex-layout.row#grid-banners1",
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#grid-banners2"
+    ],
+    "props":{
+      "blockClass":"grid-banners-desktop"
+    }
+  },  
+  /* Banner Bullet
+  "responsive-layout.desktop#banner-bullet":{
+    "children":[
+      "flex-layout.row#grid-banners-bullet"
+    ]
+  },
+  "flex-layout.row#grid-banners-bullet":{
+    "props":{
+      "blockClass": "banner-bullet-row"
+    },
+    "children":[
+      "flex-layout.col#bullet-01",
+      "flex-layout.col#bullet-02",
+      "flex-layout.col#bullet-03",
+      "flex-layout.col#bullet-04"
+    ]
+  },
+  "flex-layout.col#bullet-01":{
+    "children":[
+      "image#banner-bullet-1"
+    ],
+    "props":{
+      "blockClass":"banner-bullet-col"
+    }
+  },
+  "flex-layout.col#bullet-02":{
+    "children":[
+      "image#banner-bullet-2"
+    ],
+    "props":{
+      "blockClass":"banner-bullet-col"
+    }
+  },  
+  "flex-layout.col#bullet-03":{
+    "children":[
+      "image#banner-bullet-3"
+    ],
+    "props":{
+      "blockClass":"banner-bullet-col"
+    }
+  },  
+  "flex-layout.col#bullet-04":{
+    "children":[
+      "image#banner-bullet-4"
+    ],
+    "props":{
+      "blockClass":"banner-bullet-col"
+    }
+  }, 
+  "image#banner-bullet-1":{
+    "props":{
+      "src":"https://via.placeholder.com/382x80"
+    }
+  },
+  "image#banner-bullet-2":{
+    "props":{
+      "src":"https://via.placeholder.com/382x80"
+    }
+  },
+  "image#banner-bullet-3":{
+    "props":{
+      "src":"https://via.placeholder.com/382x80"
+    }
+  },
+  "image#banner-bullet-4":{
+    "props":{
+      "src":"https://via.placeholder.com/382x80"
+    }
+  },   
+  */
+  // Banner Slider
+  "slider-layout#banner-dft": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#banner-dft-1", "image#banner-dft-2", "image#banner-dft-3"]
+  },   
+          "image#banner-dft-1": {
+            "props": {
+              "src":"https://via.placeholder.com/2000x400",
+              "alt": "Alt do Banner",
+              "link":"/"
+            }
+          },
+          "image#banner-dft-2": {
+            "props": {
+              "src":"https://via.placeholder.com/2000x400",
+              "alt": "Alt do Banner",
+              "link":"/"
+            }
+          },
+          "image#banner-dft-3": {
+            "props": {
+              "src":"https://via.placeholder.com/2000x400",
+              "alt": "Alt do Banner",
+              "link":"/"
+            }
+          },
+// Grid banners
+          "flex-layout.row#grid-banners1":{
+            "props":{
+              "blockClass":"grid-banners1"
+            },
+            "children":[
+              "flex-layout.col#grid-banners1-01",
+              "flex-layout.col#grid-banners1-02",
+              "flex-layout.col#grid-banners1-03",
+              "flex-layout.col#grid-banners1-04"
+            ]
+          },
+              "flex-layout.col#grid-banners1-01":{
+                  "children":["image#grid-banners1-image-1"],
+                  "props":{"marginLeft":4,"marginRight":4}
+              },
+              "flex-layout.col#grid-banners1-02":{
+                "children":["image#grid-banners1-image-2"],
+                "props":{"marginLeft":4,"marginRight":4}
+              },        
+              "flex-layout.col#grid-banners1-03":{
+                "children":["image#grid-banners1-image-3"],
+                "props":{"marginLeft":4,"marginRight":4}
+              },      
+              "flex-layout.col#grid-banners1-04":{
+                "children":[
+                  "image#grid-banners1-image-4"
+                ],
+                "props":{"marginLeft":4,"marginRight":4}
+              },
+                  "image#grid-banners1-image-1":{
+                    "props":{
+                      "src":"https://via.placeholder.com/640x395",
+                      "alt": "Alt do Banner",
+                      "link":"/"
+                    }
+                  },
+                  "image#grid-banners1-image-2":{
+                    "props":{
+                      "src":"https://via.placeholder.com/640x395",
+                      "alt": "Alt do Banner",
+                      "link":"/"
+                    }
+                  },                
+                  "image#grid-banners1-image-3":{
+                    "props":{
+                      "src":"https://via.placeholder.com/640x395",
+                      "alt": "Alt do Banner",
+                      "link":"/"
+                    }
+                  },     
+                  "image#grid-banners1-image-4":{
+                    "props":{
+                      "src":"https://via.placeholder.com/640x395",
+                      "alt": "Alt do Banner",
+                      "link":"/"
+                    }
+                  },   
+// Grid banners 2
+          "flex-layout.row#grid-banners2":{
+            "props":{
+              "blockClass":"grid-banners2"
+            },
+            "children":[
+              "flex-layout.col#grid-banners2-01",
+              "flex-layout.col#grid-banners2-02",
+              "flex-layout.col#grid-banners2-03"
+            ]
+          },                
+              "flex-layout.col#grid-banners2-01":{
+                  "children":["image#grid-banners2-image-1", "image#grid-banners2-image-2"],
+                  "props":{"marginLeft":4,"marginRight":4, "width":"25%"}          
+              },
+              "flex-layout.col#grid-banners2-02":{
+                "children":["image#grid-banners2-image-3"],
+                "props":{"marginLeft":4,"marginRight":4,"width":"25%"}          
+              },           
+              "flex-layout.col#grid-banners2-03":{
+              "children":[
+                // "image#grid-banners2-image-04"
+                "slider-layout#banners-grid"
+              ],
+              "props":{"marginLeft":4,"marginRight":4,"width":"50%"}          
+              },               
+                  "image#grid-banners2-image-1":{
+                    "props":{
+                      "src":"https://via.placeholder.com/640x395",
+                      "alt": "Alt do Banner",
+                      "link":"/"
+                    }
+                  },   
+                  "image#grid-banners2-image-2":{
+                    "props":{
+                      "src":"https://via.placeholder.com/640x395",
+                      "alt": "Alt do Banner",                 
+                      "link":"/"
+                    }
+                  },            
+                  "image#grid-banners2-image-3":{
+                    "props":{
+                      "src":"https://via.placeholder.com/640x800",
+                      "alt": "Alt do Banner",
+                      "link":"/"
+                    }
+                  },              
+                      "slider-layout#banners-grid": {
+                        "props": {
+                          "autoplay":{
+                            "timeout": 5000,
+                            "stopOnHover": true
+                          },                           
+                          "itemsPerPage": {
+                            "desktop": 1,
+                            "tablet": 1,
+                            "phone": 1
+                          },                         
+                          "infinite": true,
+                          "showNavigationArrows": "desktopOnly",
+                          "blockClass": "carousel-grid"
+                        },
+                        "children": ["image#banner-grid-img1", "image#banner-grid-img2", "image#banner-grid-img3"]
+                      },  
+                              "image#banner-grid-img1":{
+                                  "props":{
+                                    "src":"https://via.placeholder.com/1080x650",
+                                    "alt": "Alt do Banner",
+                                    "link":"/"                                  
+                                  }
+                              },   
+                              "image#banner-grid-img2":{
+                                "props":{
+                                  "src":"https://via.placeholder.com/1080x650",
+                                  "alt": "Alt do Banner",
+                                  "link":"/"   
+                                }
+                              }, 
+                              "image#banner-grid-img3":{
+                                "props":{
+                                  "src":"https://via.placeholder.com/1080x650",
+                                  "alt": "Alt do Banner",
+                                  "link":"/"   
+                                }
+                              },                               
+//////////////////////////
+/////////////////////////
+/*******  Desktop Content ********/
+/////////////////////////
+/////////////////////////                                      
+"responsive-layout.desktop#content":{
+  "children":[
+    "__fold__",
+    "rich-text#shelf-title",
+    "flex-layout.row#shelf",
+    "rich-text#shelf-title2",
+    "flex-layout.row#shelf2", 
+    "image#banner-middle-shelf",     
+    "rich-text#shelf-title3",
+    "flex-layout.row#shelf3",    
+    "rich-text#title-blog",
+    "flex-layout.row#blog",
+    "rich-text#shelf-title4",
+    "flex-layout.row#shelf4",       
+    "flex-layout.row#feedInstagram"
+  ]
+},                                                              
+  /* Vitrine */   
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Título Vitrine",
+      "blockClass": "shelfTitle"
+    }
+  },  
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa de Princesa"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 3
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  }, 
+  /* Vitrine 2 */
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## Título Vitrine",
+      "blockClass": "shelfTitle"
+    }
+  },  
+  "flex-layout.row#shelf2": {
+    "children": ["list-context.product-list#shelf2"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelf2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa Dinossauro"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  }, 
+  /* Vitrine 3*/   
+  "rich-text#shelf-title3": {
+    "props": {
+      "text": "## Título Vitrine",
+      "blockClass": "shelfTitle"
+    }
+  },  
+  "flex-layout.row#shelf3": {
+    "children": ["list-context.product-list#shelf3"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelf3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products3"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa Now United"
+    }
+  },
+  "slider-layout#demo-products3": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  },   
+  "image#banner-middle-shelf":{
+    "props":{
+      "src":"https://via.placeholder.com/2000x200",
+      "alt": "Alt do Banner",
+      "link":"/",
+      "blockClass":"banner-middle-shelf"
+    }
+  },
+  /* Vitrine 4 */   
+  "rich-text#shelf-title4": {
+    "props": {
+      "text": "## Título Vitrine",
+      "blockClass": "shelfTitle"
+    }
+  },  
+  "flex-layout.row#shelf4": {
+    "children": ["list-context.product-list#shelf4"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelf4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products4"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Festa Vampirinha"
+    }
+  },
+  "slider-layout#demo-products4": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":false
+    }
+  },   
+  /* Blog */
+  "rich-text#title-blog":{
+    "props":{
+      "text": "Fique por dentro das novidades",
+      "blockClass": "title-default"
+    }
+  },
+  "flex-layout.row#blog":{
+    "props":{
+      "blockClass":"content-blog"
+    },
+    "children":[
+      "flex-layout.col#article1",
+      "flex-layout.col#article2",
+      "flex-layout.col#article3",
+      "flex-layout.col#article4"
+    ]
+  },
+        "flex-layout.col#article1":{
+          "children":[
+            "image#image-article1",
+            "rich-text#title-article1",
+            "rich-text#resum-article1",
+            "rich-text#link-article1"
+          ],
+          "props":{
+            "blockClass":"content-article"
+          }
+        },
+            "image#image-article1":{
+              "props":{
+                "src":"https://via.placeholder.com/700x960",
+                "alt": "Alt do Banner",
+                "link":""
+              }
+            },
+            "rich-text#title-article1":{
+              "props":{
+                "text":"Galinha Pintadinha: Saiba tudo sobre ela",
+                "blockClass": "title-article"
+              }
+            },
+            "rich-text#resum-article1":{
+              "props":{
+                "text":"Os papais de plantão conhecem, os filhos ficam completamente hipnotizados quando assistem a Galinha Pintadinha. Com mais de 350 milhões de visualizações no Youtube, a Galinha mais querida do Brasil mostra todo o seu potencial de seduzir a garotada e trazer alegria para centenas de crianças...",
+                "blockClass": "resum-article"
+              }
+            },            
+            "rich-text#link-article1":{
+              "props":{
+                "text":"[ver artigo](http://blog.festabox.com.br/galinha-pintadinha-saiba-tudo-sobre/)",
+                "blockClass": "link-article"
+              }
+            },   
+        "flex-layout.col#article2":{
+          "children":[
+            "image#image-article2",
+            "rich-text#title-article2",
+            "rich-text#resum-article2",
+            "rich-text#link-article2"
+          ],
+          "props":{
+            "blockClass":"content-article"
+          }          
+        },
+            "image#image-article2":{
+              "props":{
+                "src":"https://via.placeholder.com/700x960",
+                "alt": "Alt do Banner",
+              }
+            },
+            "rich-text#title-article2":{
+              "props":{
+                "text":"Now United: Conheça os Membros",
+                "blockClass": "title-article"
+              }
+            },
+            "rich-text#resum-article2":{
+              "props":{
+                "text":"Com certeza você já deve ter ouvido falar sobre o Now United, não é mesmo? Popular entre os pré-adolescentes, o grupo ganhou fama e se tornou o maior de música pop do mundo! O interessante do grupo é que o mesmo é composto por pessoas de diversas nacionalidades. Ao todo são 16 jovens...",
+                "blockClass": "resum-article"
+              }
+            },            
+            "rich-text#link-article2":{
+              "props":{
+                "text":"[ver artigo](http://blog.festabox.com.br/now-united-conheca-os-membros/)",
+                "blockClass": "link-article"
+              }
+            },     
+        "flex-layout.col#article3":{
+          "children":[
+            "image#image-article3",
+            "rich-text#title-article3",
+            "rich-text#resum-article3",
+            "rich-text#link-article3"
+          ],
+          "props":{
+            "blockClass":"content-article"
+          }          
+        },
+            "image#image-article3":{
+              "props":{
+                "src":"https://via.placeholder.com/700x960",
+                "alt": "Alt do Banner"
+              }
+            },
+            "rich-text#title-article3":{
+              "props":{
+                "text":"Minecraft: O que é e Como Surgiu?",
+                "blockClass": "title-article"
+              }
+            },
+            "rich-text#resum-article3":{
+              "props":{
+                "text":"Quem aí nunca ouviu falar do Minecraft, um dos jogos mais populares da atualidade? O game, que conta com uma legião de fãs, começou a ser desenvolvido em 2009 e se tornou um dos jogos mais lucrativos. Apesar da simplicidade do jogo e de que qualquer pessoa pode jogá-lo, existem vários...",
+                "blockClass": "resum-article"
+              }
+            },            
+            "rich-text#link-article3":{
+              "props":{
+                "text":"[ver artigo](http://blog.festabox.com.br/minecraft-o-que-e-como-surgiu/)",
+                "blockClass": "link-article"
+              }
+            },       
+        "flex-layout.col#article4":{
+          "children":[
+            "image#image-article4",
+            "rich-text#title-article4",
+            "rich-text#resum-article4",
+            "rich-text#link-article4"
+          ],
+          "props":{
+            "blockClass":"content-article"
+          }          
+        },
+            "image#image-article4":{
+              "props":{
+                "src": "https://millionline.vtexassets.com/assets/vtex.file-manager-graphql/images/40fc2405-1026-4a40-b282-4971ec67b63b___5b0ad3ecccf92d9b693c947a112fe611.jpg",
+                "alt": "Seja um revendedor - conheça as vantagens | Milli SexShop",
+                "link": "/vantagens-de-revendedor"
+              }
+            },
+            "rich-text#title-article4":{
+              "props":{
+                "text":"Aniversário Adulto: Como planejar?",
+                "blockClass": "title-article"
+              }
+            },
+            "rich-text#resum-article4":{
+              "props":{
+                "text":"Está planejando um aniversário de adulto e não sabe por onde começar? A gente te ajuda! A verdade é que não são apenas as crianças que merecem uma boa decoração para a comemoração da passagem de mais um ano. Os adultos também merecem uma atenção especial no seu grande dia...",
+                "blockClass": "resum-article"
+              }
+            },            
+            "rich-text#link-article4":{
+              "props":{
+                "text":"[ver artigo](http://blog.festabox.com.br/aniversario-adulto-como-planejar/)",
+                "blockClass": "link-article"
+              }
+            },                                                
+  // Instagram 
+  "flex-layout.row#feedInstagram":{
+    "children":[
+      "sandbox#feedInstagram"
+    ],
+    "props":{
+      "blockClass":"feedInstagram"
+    }
+  },
+      "sandbox#feedInstagram":{
+        "props":{
+          "initialContent":"<script src='https://apps.elfsight.com/p/platform.js' defer></script><div class='elfsight-app-352f103d-09aa-454b-af06-d673c3a57fa0'></div>",
+          "width":"100%",
+          "height":"450px"
+        }
+      },
+//////////////////////////
+/////////////////////////
+/*******  Mobile ********/
+/////////////////////////
+///////////////////////// 
+
+"responsive-layout.mobile#mobile":{
+  "children":[
+    "flex-layout.row#content-1-mobile",
+    "flex-layout.row#title-shelf-1-mobile",
+    "flex-layout.row#shelf-1-mobile",
+    "__fold__.experimentalLazyAssets",
+    "flex-layout.row#grid-banners-mobile-1",
+    "flex-layout.row#grid-mobile--row-2",
+    "__fold__",
+    "flex-layout.row#grid-banners-mobile-3",        
+    "flex-layout.row#title-shelf-2-mobile",
+    "flex-layout.row#shelf-2-mobile",
+    "image#grid-banners-middle",
+    "flex-layout.row#title-shelf-3-mobile",
+    "flex-layout.row#shelf-3-mobile"    
+    // "flex-layout.row#shelf-mobile"    
+  ]
+},
+  // Row Content 1 Mobile
+  "flex-layout.row#content-1-mobile":{
+    "children":[
+      "slider-layout#banner-full-mobile",
+      "rich-text#menu-categorias-mobile",
+      "slider-layout#menu-categorias"
+    ],
+    "props":{
+      "blockClass":"content-1-mobile"
+    }
+  },
+  // Slider Layout Banner Full Mobile
+      "slider-layout#banner-full-mobile": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "autoplay":{
+            "timeout": 10000,
+            "stopOnHover": false
+          },
+          "showNavigationArrows": "never",
+          "showPaginationDots":"always",
+          "blockClass": "banner-full-mobile"
+        },
+        "children": ["image#banner-full-mobile0","image#banner-full-mobile1", "image#banner-full-mobile2", "image#banner-full-mobile3"]
+      },
+      "image#banner-full-mobile0":{
+        "props":{
+          "src":"https://via.placeholder.com/400x200",
+          "alt": "Alt do Banner",
+          "link":"/",
+          "blockClass":"img-full-banner-mobile"
+        }
+      },      
+      "image#banner-full-mobile1":{
+        "props":{
+          "src":"https://via.placeholder.com/400x200",
+          "alt": "Alt do Banner",
+          "link":"/",
+          "blockClass":"img-full-banner-mobile"
+        }
+      },
+      "image#banner-full-mobile2":{
+        "props":{
+          "src":"https://via.placeholder.com/400x200",
+          "alt": "Alt do Banner",
+          "link":"/",
+          "blockClass":"img-full-banner-mobile"
+        }
+      },    
+      "image#banner-full-mobile3":{
+        "props":{
+          "src":"https://via.placeholder.com/400x200",
+          "alt": "Alt do Banner",
+          "link":"/",
+          "blockClass":"img-full-banner-mobile"
+        }
+      },          
+  // Menu Categorias
+      "rich-text#menu-categorias-mobile":{
+        "props":{
+          "text":"**Categorias**",
+          "blockClass":"menu-categorias-mobile"
+        }
+      },
+  // Menu Categorias Slider Mobile
+  "slider-layout#menu-categorias":{
+    "children":[
+      "flex-layout.col#menu-categoria1",
+      "flex-layout.col#menu-categoria2",
+      "flex-layout.col#menu-categoria3",
+      "flex-layout.col#menu-categoria4",
+      "flex-layout.col#menu-categoria5"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 5
+      },
+      "infite":false,
+      "showNavigationArrows": "never",
+      "showPaginationDots":"never",
+      "blockClass": "menu-categorias-mobile"
+    }    
+  },
+      "flex-layout.col#menu-categoria1":{
+        "children":[
+          "image#icon-menu-categoria-1",
+          "rich-text#link-menu-categoria-1"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }
+      },
+          "image#icon-menu-categoria-1":{
+            "props":{
+              "src":"https://via.placeholder.com/32x32",
+              "alt": "Alt do Menu",
+              "blockClass":"img-menu-categoria",
+              "link":"/menu"
+            }
+          },
+          "rich-text#link-menu-categoria-1":{
+            "props":{
+              "text":"[Menu](/menu)",
+              "blockClass":"link-menu-categoria"
+            }
+          },
+      // 
+      "flex-layout.col#menu-categoria2":{
+        "children":[
+          "image#icon-menu-categoria-2",
+          "rich-text#link-menu-categoria-2"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }        
+      },
+          "image#icon-menu-categoria-2":{
+            "props":{
+              "src":"https://via.placeholder.com/32x32",
+              "alt": "Alt do Menu",
+              "link":"/menu",
+              "blockClass":"img-menu-categoria"
+            }
+          },
+          "rich-text#link-menu-categoria-2":{
+            "props":{
+              "text":"[Menu](/menu)",
+              "blockClass":"link-menu-categoria"
+            }
+          },      
+      // 
+      "flex-layout.col#menu-categoria3":{
+        "children":[
+          "image#icon-menu-categoria-3",
+          "rich-text#link-menu-categoria-3"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }        
+      },    
+          "image#icon-menu-categoria-3":{
+            "props":{
+              "src":"https://via.placeholder.com/32x32",
+              "alt": "Alt do Menu",
+              "link":"/menu",
+              "blockClass":"img-menu-categoria"
+            }
+          },
+          "rich-text#link-menu-categoria-3":{
+            "props":{
+              "text":"[Menu](/menu)",
+              "blockClass":"link-menu-categoria"
+            }
+          },               
+      // 
+      "flex-layout.col#menu-categoria4":{
+        "children":[
+          "image#icon-menu-categoria-4",
+          "rich-text#link-menu-categoria-4"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }        
+      },     
+          "image#icon-menu-categoria-4":{
+            "props":{
+              "src":"https://via.placeholder.com/32x32",
+              "alt": "Alt do Menu",
+              "link":"/menu",
+              "blockClass":"img-menu-categoria"
+            }
+          },
+          "rich-text#link-menu-categoria-4":{
+            "props":{
+              "text":"[Menu](/Menu)",
+              "blockClass":"link-menu-categoria"
+            }
+          },        
+      // 
+      "flex-layout.col#menu-categoria5":{
+        "children":[
+          "image#icon-menu-categoria-5",
+          "rich-text#link-menu-categoria-5"
+        ],
+        "props":{
+          "blockClass":"col-menu-categorias"
+        }        
+      },
+          "image#icon-menu-categoria-5":{
+            "props":{
+              "src":"https://via.placeholder.com/32x32",
+              "alt": "Alt do Menu",
+              "link":"/menu",
+              "blockClass":"img-menu-categoria"
+            }
+          },
+          "rich-text#link-menu-categoria-5":{
+            "props":{
+              "text":"[Menu](/menu)",
+              "blockClass":"link-menu-categoria"
+            }
+          },         
+  // Título Vitrine Mobile 01
+  "flex-layout.row#title-shelf-1-mobile":{
+    "children":[
+      "flex-layout.col#title-shelf-1",
+      "flex-layout.col#link-shelf-1"
+    ],
+    "props":{
+      "blockClass":"row-shelf-mobile"
+    }
+  },
+      "flex-layout.col#title-shelf-1":{
+        "children":[
+          "rich-text#shelf-title-mobile"
+        ],
+        "props":{
+          "blockClass":"content-title-shelf-1",
+          "width":"50%"
+        }
+      },
+      "flex-layout.col#link-shelf-1":{
+        "children":[
+          "rich-text#link-title-mobile"
+        ],
+        "props":{
+          "blockClass":"content-link-shelf-1",
+          "width":"50%"
+        }
+      },
+          "rich-text#shelf-title-mobile":{
+            "props":{
+              "text":"Título Vitrine",
+              "blockClass":"shelf-title-mobile"
+            }
+          },
+          "rich-text#link-title-mobile":{
+            "props":{
+              "text":"VER TUDO",
+              "blockClass":"link-title-mobile"
+            }
+          },
+  // Produtos Vitrine Mobile 01
+  "flex-layout.row#shelf-1-mobile": {
+    "children": ["list-context.product-list#shelfmobile"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelfmobile": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Novos produtos que você vai gostar"
+    }
+  },
+  "slider-layout#shelf-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "centerMode":"center",
+      "showPaginationDots":false,
+      "showNavigationArrows":false
+    }
+  },  
+  // Grid Banners Mobile
+  "flex-layout.row#grid-banners-mobile-1":{
+    "children":[
+      "flex-layout.col#banner-mobile-1",
+      "flex-layout.col#banner-mobile-2"
+    ],
+    "props":{
+      "blockClass":"grid-banners-mobile"
+    }
+  },
+      "flex-layout.col#banner-mobile-1":{
+        "children":[
+          "image#banner-grid-mobile-1"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#banner-grid-mobile-1":{
+            "props":{
+              "src":"https://via.placeholder.com/640x395",
+              "alt": "Alt do Menu",
+              "link":"/"
+            }
+          },
+      "flex-layout.col#banner-mobile-2":{
+        "children":[
+          "image#banner-grid-mobile-2"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#banner-grid-mobile-2":{
+            "props":{
+              "src":"https://via.placeholder.com/640x395",
+              "alt": "Alt do Menu",
+              "link":"/"
+            }
+          },   
+  // Grid Banners Mobile 2
+  "flex-layout.row#grid-mobile--row-2":{
+    "children":[
+      "flex-layout.col#grid-mobile--col-3",
+      "flex-layout.col#grid-mobile--col-4"
+    ],
+    "props":{
+      "blockClass":"grid-banners-mobile"
+    }
+  },
+      "flex-layout.col#grid-mobile--col-3":{
+        "children":[
+          "image#grid-mobile--img-3"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#grid-mobile--img-3":{
+            "props":{
+              "src":"https://via.placeholder.com/640x395",
+              "alt": "Alt do Menu",
+              "link":"/"
+            }
+          },
+      "flex-layout.col#grid-mobile--col-4":{
+        "children":[
+          "image#grid-mobile--img-4"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#grid-mobile--img-4":{
+            "props":{
+              "src":"https://via.placeholder.com/640x395",
+              "alt": "Alt do Menu",
+              "link":"/"
+            }
+          },  
+  // Grid Banners Mobile 3
+  "flex-layout.row#grid-banners-mobile-3":{
+    "children":[
+      "flex-layout.col#banner-mobile-4",
+      "flex-layout.col#banner-mobile-5"
+    ],
+    "props":{
+      "blockClass":"grid-banners-mobile"
+    }
+  },
+      "flex-layout.col#banner-mobile-4":{
+        "children":[
+          "image#banner-grid-mobile-4",
+          "image#banner-grid-mobile-5"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#banner-grid-mobile-4":{
+            "props":{
+              "src":"https://via.placeholder.com/640x395",
+              "alt": "Alt do Menu",
+              "link":"/"
+            }
+          },   
+          "image#banner-grid-mobile-5":{
+            "props":{
+              "src":"https://via.placeholder.com/640x395",
+              "alt": "Alt do Menu",                  
+              "link":"/"
+            }
+          },               
+      "flex-layout.col#banner-mobile-5":{
+        "children":[
+          "image#banner-grid-mobile-6"
+        ],
+        "props":{"marginLeft":2,"marginRight":2,"width":"50%","blockClass":"col-banner-grid-mobile"}
+      },
+          "image#banner-grid-mobile-6":{
+            "props":{
+              "src":"https://via.placeholder.com/640x800",
+              "alt": "Alt do Menu",
+              "link":"/"
+            }
+          },
+// Vitrine 2
+  // Título Vitrine Mobile 02
+  "flex-layout.row#title-shelf-2-mobile":{
+    "children":[
+      "flex-layout.col#title-shelf-2",
+      "flex-layout.col#link-shelf-2"
+    ],
+    "props":{
+      "blockClass":"row-shelf-mobile"
+    }
+  },
+      "flex-layout.col#title-shelf-2":{
+        "children":[
+          "rich-text#shelf-title-mobile-2"
+        ],
+        "props":{
+          "blockClass":"content-title-shelf-2",
+          "width":"50%"
+        }
+      },
+      "flex-layout.col#link-shelf-2":{
+        "children":[
+          "rich-text#link-title-mobile-2"
+        ],
+        "props":{
+          "blockClass":"content-link-shelf-2",
+          "width":"50%"
+        }
+      },
+          "rich-text#shelf-title-mobile-2":{
+            "props":{
+              "text":"Título Vitrine",
+              "blockClass":"shelf-title-mobile"
+            }
+          },
+          "rich-text#link-title-mobile-2":{
+            "props":{
+              "text":"VER TUDO",
+              "blockClass":"link-title-mobile"
+            }
+          },
+  // Produtos Vitrine Mobile 01
+  "flex-layout.row#shelf-2-mobile": {
+    "children": ["list-context.product-list#shelfmobile2"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelfmobile2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-products-2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Novos produtos que você vai gostar"
+    }
+  },
+  "slider-layout#shelf-products-2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "centerMode":"center",
+      "showPaginationDots":false,
+      "showNavigationArrows":false
+    }
+  },
+  // Grid Banners Middle
+  "image#grid-banners-middle":{
+    "props":{
+      "src":"https://via.placeholder.com/800x200",
+      "alt": "Alt do Menu",
+      "link":"/"
+    }
+  },   
+// Vitrine 3
+  // Título Vitrine Mobile 03
+  "flex-layout.row#title-shelf-3-mobile":{
+    "children":[
+      "flex-layout.col#title-shelf-3",
+      "flex-layout.col#link-shelf-3"
+    ],
+    "props":{
+      "blockClass":"row-shelf-mobile"
+    }
+  },
+      "flex-layout.col#title-shelf-3":{
+        "children":[
+          "rich-text#shelf-title-mobile-3"
+        ],
+        "props":{
+          "blockClass":"content-title-shelf-3",
+          "width":"50%"
+        }
+      },
+      "flex-layout.col#link-shelf-3":{
+        "children":[
+          "rich-text#link-title-mobile-3"
+        ],
+        "props":{
+          "blockClass":"content-link-shelf-3",
+          "width":"50%"
+        }
+      },
+          "rich-text#shelf-title-mobile-3":{
+            "props":{
+              "text":"Título Vitrine",
+              "blockClass":"shelf-title-mobile"
+            }
+          },
+          "rich-text#link-title-mobile-3":{
+            "props":{
+              "text":"VER TUDO",
+              "blockClass":"link-title-mobile"
+            }
+          },
+  // Produtos Vitrine Mobile 01
+  "flex-layout.row#shelf-3-mobile": {
+    "children": ["list-context.product-list#shelfmobile3"],
+    "props":{"blockClass":"container-shelf"}
+  },
+  "list-context.product-list#shelfmobile3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-products-3"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "installmentCriteria": "MAX_WITH_INTEREST",
+      "titleText":"Novos produtos que você vai gostar"
+    }
+  },
+  "slider-layout#shelf-products-3":{
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "centerMode":"center",
+      "showPaginationDots":false,
+      "showNavigationArrows":false
+    }
+  }                        
+}

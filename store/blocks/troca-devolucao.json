@@ -1,0 +1,51 @@
+{
+  "store.custom#troca-devolucao": {
+    "blocks": [
+      "rich-text#title-trocas",
+      "flex-layout.row#troca"
+    ]
+  },
+
+  "flex-layout.row#troca": {
+    "props":{
+      "blockClass":"content-institucional"
+    },    
+    "children": [
+      "flex-layout.col#text-troca"
+    ]
+  },
+
+  "flex-layout.col#text-troca": {
+    "children": [
+      "flex-layout.row#troca"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-trocas":{
+    "props": {
+      "text":"Trocas e Devoluções",
+      "blockClass": "title-about"
+    }
+  },
+  "flex-layout.row#troca":{
+    "children":[
+      "flex-layout.col#col-troca"
+    ]
+  },
+  "flex-layout.col#col-troca":{
+    "children":[
+      "rich-text#troca"
+    ]
+  },
+
+  "rich-text#troca": {
+    "props": {
+      "text": "**Política de Troca** \n\n NA MILLI A SATISFAÇÃO DO CLIENTE ESTÁ ACIMA DE TUDO! \n\n Por isso a troca de um produto por simples arrependimento é possível. Porém, para sua própria segurança e por motivos de higiene (no caso de produtos de uso íntimo), existem alguns procedimentos que devem ser seguidos CASO deseje trocar seu produto. \n\n - Trocas somente de produtos dentro da validade, com embalagem lacrada e em perfeitas condições; \n\n - Quando for nos reenviar o produto, embale-o corretamente para que o mesmo não sofra nenhum dano causado pela falta de proteção. Se o produto sofrer algum dano no reenvio, não trocaremos. \n\n - O produto deverá ser enviado para análise (frete por conta do comprador) e em até 3 dias úteis (após o recebimento) daremos um aval sobre a aprovação/reprovação do produto para troca. \n\n - Se o produto estiver dentro dos padrões necessários para a troca o cliente receberá um crédito no valor do(s) produto(s) para comprar na loja. \n\n - Troca por insatisfação em até 7 dias a partir da data da compra. \n\n - O prazo de troca para itens com defeito é de no máximo 30 dias e o produto, assim como todos, passa por uma análise. \n\n - O Frete de retorno é cobrado do cliente (salvo em condições especificas de erro operacional da loja) e deve ser pago por depósito bancário. \n\n - Não serão aceitas reclamações referentes à avaria no produto após 48h do recebimento do mesmo, por favor, no momento do recebimento conferir todos os produtos. \n\n - Caso o produto seja reprovado na análise, a empresa fica isenta de aceitar a devolução e fazer a troca, podendo reenviar o produto a você sem consulta prévia. \n\n - Para produtos que foram recebidos e são incompatíveis com o pedido o prazo máximo para contato e troca é de 48h após o recebimento. \n\n - Para solicitar uma troca enviar um e-mail para contato@millionline.com.br informando o motivo da troca antes do envio. Trocas que forem recebidas sem esse contato serão devolvidas ao remetente sem consulta prévia. \n\n - A Milli se reserva o direito de não fazer devolução de dinheiro em troca por insatisfação. \n\n É importante que você confira sempre sua mercadoria no ato da entrega realizada pelo transportador. \n\n **Em qualquer hipóteses abaixo recuse o produto:** \n\n - Embalagem aberta ou avariada; \n\n - Produto avariado; \n\n - Produto em desacordo com o pedido; \n\n - Falta de acessórios. \n\n Se, ainda assim, você receber o produto, por favor, entre em contato com a nossa Central de Atendimento ao Cliente em até 48h. \n\n RESSALTAMOS QUE: \n\n - O prazo para desistir da compra do produto é de até 7 dias corridos, a contar da data do recebimento; \n\n - O produto deverá ser encaminhado na embalagem original, sem indícios de uso, sem violação do lacre original do fabricante, acompanhado de nota fiscal, manual e todos os seus acessórios; \n\n - Se o produto adquirido em nossa loja apresentar defeito após sete dias, a contar da data do recebimento, mas dentro do prazo de garantia do fabricante, você poderá entrar em contato com a Central de Atendimento para comunicar a ocorrência e obter esclarecimentos. \n\n - Todos os produtos recebidos em nosso Centro de Distribuição são analisados para constatação do defeito informado pelo cliente. Eles serão reenviados (via PAC) ao cliente sempre que não for constatado qualquer defeito ou se tiver sido descumprida uma das condições descritas. \n\n - O prazo para que finalize a solicitação de troca de mercadoria comunicada à nossa Central de Atendimento é de 30 (trinta) dias corridos, contados a partir da data de recebimento da mercadoria em nosso Centro de Distribuição. \n\n - O reembolso será realizado no valor total do(s) produto(s) devolvido(s) /cancelado(s). \n\n - Reservamo-nos o direito de não atender a obrigação de cancelar ou consertar qualquer produto que apresente claramente indícios de mau uso. \n\n **- NÃO TROCAMOS ITENS PROMOCIONAIS** \n\n **- Produto promocional em saldão de ofertas, black friday, queima de estoque, liquidação e afins não serão trocados.**",
+      "blockClass": "about"
+    }
+  }
+}

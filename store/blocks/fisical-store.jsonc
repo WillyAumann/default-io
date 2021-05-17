@@ -1,0 +1,101 @@
+{
+  "store.custom#loja-fisica-festabox": {
+    "blocks": [
+      "flex-layout.row#lojaFisica-festabox"
+    ]
+  },
+
+  "flex-layout.row#lojaFisica-festabox": {
+    "children": [
+      "flex-layout.col#text-lojaFisica-festabox"
+    ],
+    "props":{
+      "blockClass":"content-institucional"
+    }
+  },
+
+  "flex-layout.col#text-lojaFisica-festabox": {
+    "children": [
+      "rich-text#title-about-lojaFisica",
+      "flex-layout.row#lojaFisica",
+      "flex-layout.row#lojaFisica2"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+      "rich-text#title-about-lojaFisica":{
+        "props":{
+          "text":"Conheça nossas **lojas**",
+          "blockClass": "title-about"
+        }
+      },
+      "flex-layout.row#lojaFisica":{
+        "children":[
+          "flex-layout.col#lojaFisica-left",
+          "flex-layout.col#lojaFisica-right"
+        ]
+      },
+      "flex-layout.col#lojaFisica-left":{
+        "children":[
+          "iframe#lojaFisica"
+        ],
+        "props":{
+          "width":"40%"
+        }
+      },
+      "iframe#lojaFisica":{
+        "props":{
+          "src":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.396426103345!2d-46.6215!3d-23.537929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59f1694d8daeef66!2sMilli%20Lingerie%20e%20Sex%20Shop!5e0!3m2!1spt-BR!2sbr!4v1620490929632!5m2!1spt-BR!2sbr",
+          "width":500,
+          "height":250,
+          "blockClass": "image-lojaFisica"
+        }
+      },
+      "flex-layout.col#lojaFisica-right":{
+        "children":[
+          "rich-text#texto-lojaFisica"
+        ]
+      },
+      "rich-text#texto-lojaFisica":{
+        "props":{
+          "text":"**Loja - Oriente** \n\n Rua Oriente, 71 - São Paulo - SP \n\n Telefone: (11) 3322-0851 \n\n Horário de Funcionamento: 08:00 - 17:30"
+        }
+      },
+      //
+      //
+      //
+      "flex-layout.row#lojaFisica2":{
+        "children":[
+          "flex-layout.col#lojaFisica-left2",
+          "flex-layout.col#lojaFisica-right2"
+        ]
+      },
+      "flex-layout.col#lojaFisica-left2":{
+        "children":[
+          "iframe#lojaFisica2"
+        ],
+        "props":{
+          "width":"40%"
+        }
+      },
+      "iframe#lojaFisica2":{
+        "props":{
+          "src":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14631.557270698708!2d-46.616492!3d-23.536483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59dd1559b3ce9ea1!2sMilli%20Lingerie%20e%20Sex%20Shop!5e0!3m2!1spt-BR!2sbr!4v1620491107198!5m2!1spt-BR!2sbr",
+          "width":500,
+          "height":250,
+          "blockClass": "image-lojaFisica"
+        }
+      },
+      "flex-layout.col#lojaFisica-right2":{
+        "children":[
+          "rich-text#texto-lojaFisica2"
+        ]
+      },
+      "rich-text#texto-lojaFisica2":{
+        "props":{
+          "text":"**Loja - Maria Marcolina** \n\n Rua Maria Marcolina, 615 - São Paulo - SP \n\n Telefone: (11) 3322-0851 \n\n Horário de Funcionamento: 08:00 - 17:30"
+        }
+      }      
+}

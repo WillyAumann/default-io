@@ -1,0 +1,78 @@
+{
+    "store.custom#cartao-fidelidade": {
+      "blocks": [
+        "rich-text#title-cartao",
+        "flex-layout.row#info-default-1",
+        "flex-layout.row#info-default-2",
+        "flex-layout.row#info-default-3"
+      ]
+    },
+    "rich-text#title-cartao":{
+        "props": {
+          "text":"Cartão Fidelidade",
+          "blockClass": "title-about"
+        }
+    },
+    "flex-layout.row#info-default-1":{
+        "children":[
+            "info-card#cartao-01"
+        ]
+    },
+    "info-card#cartao-01":{
+        "props":{
+            "id": "info-card-cartao",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/cartao-fidelidade-banner.png?v=635863065765200000",
+            "headline": "COMO FUNCIONA O CARTÃO FIDELIDADE?",
+            "subhead":"Agora ficou mais fácil! A cada R$ 100,00 em compras, seja em uma de nossas lojas físicas ou em nossa loja online, você ganha 10 pontos. Você pode trocar seus pontos por descontos de duas maneiras: ao completar os 10 selos do cartão ou ao atingir 500 pontos em compras. A cada um ponto você tem R$ 0,15 de desconto. O cartão fidelidade tem validade de 1 ano. Solicite o seu já! Para comunicar a perda do Cartão Fidelidade, os clientes podem ligar para: - Telefone - (11) 3322 0851 ou no WhatsApp - (11) 9 9513 5886",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode":"",
+            "blockClass": "info-card-cartao",
+            "textAlignment": "center"            
+        }
+    },
+    "flex-layout.row#info-default-2":{
+        "children":[
+            "info-card#cartao-02"
+        ]
+    },
+    "info-card#cartao-02":{
+        "props":{
+            "id": "info-card-cartao",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/loja-fisica-banner.png?v=635863072294730000",
+            "headline": "LOJAS FÍSICAS!",
+            "subhead":"Ao passar suas compras no pré-caixa, apresente seu cartão para identificação do pedido. Você receberá selos de acordo com o valor da compra após o pagamento no caixa. Os pontos não podem ser usados em cartões de terceiros.",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode":"",
+            "blockClass": "info-card-cartao",
+            "textAlignment": "center"            
+        }
+    },  
+    "flex-layout.row#info-default-3":{
+        "children":[
+            "info-card#cartao-03"
+        ]
+    },
+    "info-card#cartao-03":{
+        "props":{
+            "id": "info-card-cartao",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/loja-online-banner.png?v=635863072312000000",
+            "headline": "LOJA ONLINE!",
+            "subhead":"Ao finalizar sua compra na loja online, seus pontos serão enviados com a sua compra pelo meio de transporte escolhido. Após completar a cartela você deverá nos enviar o cartão e após a validação, você ganha um voucher com o valor do desconto.",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode":"",
+            "blockClass": "info-card-cartao",
+            "textAlignment": "center"            
+        }
+    }
+    
+  }
+  

@@ -1,0 +1,276 @@
+{
+    "store.custom#duvidas": {
+      "blocks": [
+        "rich-text#title-duvidas",
+        "flex-layout.row#faq"
+      ],
+      "props":{
+          "blockClass":"main-institucional"
+      }
+    },
+
+    "rich-text#title-duvidas": {
+      "props": {
+        "text":"Dúvidas Frequentes",
+        "blockClass": "title-about"
+      }
+    },    
+
+    "flex-layout.row#faq": {
+      "props": {
+        "blockClass": "faq"
+      },
+      "children": [
+        "flex-layout.col#faq"
+      ]
+    },
+  
+    "flex-layout.col#faq": {
+      "children": [
+        "disclosure-layout-group#group"
+      ]
+    },
+  
+    "disclosure-layout-group#group": {
+      "children": [
+        "disclosure-layout#first",
+        "disclosure-layout#second",
+        "disclosure-layout#third",
+        "disclosure-layout#fourth",
+        "disclosure-layout#fifth",
+        "disclosure-layout#sixth",
+        "disclosure-layout#seventh"
+      ]
+    },
+  
+    "disclosure-layout#first": {
+      "props": {
+        "animated": true
+      },
+      "children": ["disclosure-trigger#first", "disclosure-content#first"]
+    },
+    "disclosure-trigger#first": {
+      "props": {
+        "blockClass": "question",
+        "as": "div"
+      },
+      "children": ["disclosure-state-indicator", "rich-text#question1"]
+    },
+    "disclosure-content#first": {
+      "props": {
+        "blockClass": "answer"
+      },
+      "children": ["rich-text#answer1"]
+    },
+    "rich-text#question1": {
+      "props": {
+        "text": "Como eu entro em contato com vocês?"
+      }
+    },
+    "rich-text#answer1": {
+      "props": {
+        "text": "O contato conosco pode ser feito através do e-mail contato@millionline.com.br ou pelo telefone (11) 3322-0851. Ou WhatsApp (11) 97280-2784. Nosso horário de atendimento é de segunda a sexta, das 8hrs às 17:30hrs. "
+      }
+    },
+  
+    "disclosure-layout#second": {
+      "props": {
+        "animated": true
+      },
+      "children": ["disclosure-trigger#second", "disclosure-content#second"]
+    },
+    "disclosure-trigger#second": {
+      "props": {
+        "blockClass": "question",
+        "as": "div"
+      },
+      "children": ["disclosure-state-indicator", "rich-text#question2"]
+    },
+    "disclosure-content#second": {
+      "props": {
+        "blockClass": "answer"
+      },
+      "children": ["rich-text#answer2"]
+    },
+    "rich-text#question2": {
+      "props": {
+        "text": "Existe um valor mínimo para compras?"
+      }
+    },
+    "rich-text#answer2": {
+      "props": {
+        "text": "Sim, apenas para compras realizadas no Atacado: \n Para compras no ATACADO o valor mínimo é de R$100,00. \n Para compras no VAREJO não temos valor mínimo de compra."
+      }
+    },
+  
+  
+    "disclosure-layout#third": {
+      "props": {
+        "animated": true
+      },
+      "children": ["disclosure-trigger#third", "disclosure-content#third"]
+    },
+    "disclosure-trigger#third": {
+      "props": {
+        "blockClass": "question",
+        "as": "div"
+      },
+      "children": ["disclosure-state-indicator", "rich-text#question3"]
+    },
+    "disclosure-content#third": {
+      "props": {
+        "blockClass": "answer"
+      },
+      "children": ["rich-text#answer3"]
+    },
+    "rich-text#question3": {
+      "props": {
+        "text": "Quais são as formas de pagamento?"
+      }
+    },
+    "rich-text#answer3": {
+      "props": {
+        "text": "Os pagamento podem ser feito através de: \n **CARTÃO DE CRÉDITO (até 10X):**  Visa, Mastercard, Hipercard, American Express, Diners, Elo \n **BOLETO BANCÁRIO:** com 5% de desconto. \n **TRANSFERÊNCIA BANCÁRIA:** Itau, Bradesco e Banco do Brasil \n * Para compras parceladas a partir de 7X cobramos juros de 1,5% \n * Nossas operações bancárias são realizadas pelo parceiro MOIP, garantimos a sua segurança e de suas informações. \n Você pode comprar com 02 cartões, dividindo o valor entre mais de um método de pagamento. \n **Você também pode parcelar a sua compra:** \n O parcelamento da sua compra pode ser feito seguindo as seguintes regras: \n - Para compras a partir R$ 200,00 parcelamento em até 2X \n - Para compras a partir R$ 500,00 parcelamento em até 3X \n - Para compras a partir R$ 800,00 parcelamento em até 4X \n - Para compras a partir R$ 1.500,00 parcelamento em até 6X \n - Acima desse valor pode-se parcelar suas compras até 10X com mínimo de R$ 200,00 por parcela. A partir de 7x é acrescido 1,5% de juros."
+      }
+    },
+  
+  
+    "disclosure-layout#fourth": {
+      "props": {
+        "animated": true
+      },
+      "children": ["disclosure-trigger#fourth", "disclosure-content#fourth"]
+    },
+    "disclosure-trigger#fourth": {
+      "props": {
+        "blockClass": "question",
+        "as": "div"
+      },
+      "children": ["disclosure-state-indicator", "rich-text#question4"]
+    },
+    "disclosure-content#fourth": {
+      "props": {
+        "blockClass": "answer"
+      },
+      "children": ["rich-text#answer4"]
+    },
+    "rich-text#question4": {
+      "props": {
+        "text": "Por que não vem preço no catálogo?"
+      }
+    },
+    "rich-text#answer4": {
+      "props": {
+        "text": "O catálogo circula por aproximadamente seis meses. Nesse período pode haver reajuste de preços e se o colocássemos ele ficaria desatualizado. Além disso, cada vendedor trabalha com uma margem de lucro diferente. Se imprimirmos, limitaríamos todos nossos revendedores a trabalhar com um preço único."
+      }
+    },
+    //
+    "disclosure-layout#fifth": {
+      "props": {
+        "animated": true
+      },
+      "children": ["disclosure-trigger#fifth", "disclosure-content#fifth"]
+    },
+    "disclosure-trigger#fifth": {
+      "props": {
+        "blockClass": "question",
+        "as": "div"
+      },
+      "children": ["disclosure-state-indicator", "rich-text#question5"]
+    },
+    "disclosure-content#fifth": {
+      "props": {
+        "blockClass": "answer"
+      },
+      "children": ["rich-text#answer5"]
+    },
+    "rich-text#question5": {
+      "props": {
+        "text": "Como saber a disponibilidade de produto para compra através do site?"
+      }
+    },
+    "rich-text#answer5": {
+      "props": {
+        "text": "Ao consultar um produto no site você poderá verificar se um produto está disponível bem como suas variáveis de cor, tamanho, etc. Caso um dos itens não esteja disponível para compra aparecerá a informação de Produto Esgotado/Indisponível. Caso queira saber sobre a disponibilidade do mesmo, poderá clicar no botão Avise-me quando chegar."
+      }
+    },
+    //
+    "disclosure-layout#sixth": {
+      "props": {
+        "animated": true
+      },
+      "children": ["disclosure-trigger#sixth", "disclosure-content#sixth"]
+    },
+    "disclosure-trigger#sixth": {
+      "props": {
+        "blockClass": "question",
+        "as": "div"
+      },
+      "children": ["disclosure-state-indicator", "rich-text#question6"]
+    },
+    "disclosure-content#sixth": {
+      "props": {
+        "blockClass": "answer"
+      },
+      "children": ["rich-text#answer6"]
+    },
+    "rich-text#question6": {
+      "props": {
+        "text": "O que verificar no ato da entrega do pedido?"
+      }
+    },
+    "rich-text#answer6": {
+      "props": {
+        "text": "Ao receber seu pedido da MILLI verifique se não há violação da embalagem, caixa danificada ou ausência da DANFE (Documento Auxiliar de Nota Fiscal Eletrônica). Caso ocorra um desses casos você tem o direito de recusar a entrega e avisar nossa Central de Atendimento através do FALE CONOSCO de segunda à sexta das 08h às 17h em até 48h."
+      }
+    },         
+    //
+    "disclosure-layout#seventh": {
+      "props": {
+        "animated": true
+      },
+      "children": ["disclosure-trigger#seventh", "disclosure-content#seventh"]
+    },
+    "disclosure-trigger#seventh": {
+      "props": {
+        "blockClass": "question",
+        "as": "div"
+      },
+      "children": ["disclosure-state-indicator", "rich-text#question7"]
+    },
+    "disclosure-content#seventh": {
+      "props": {
+        "blockClass": "answer"
+      },
+      "children": ["rich-text#answer7"]
+    },
+    "rich-text#question7": {
+      "props": {
+        "text": "Minhas informações pessoais serão mantidas em sigilo?"
+      }
+    },
+    "rich-text#answer7": {
+      "props": {
+        "text": "A MILLI segue padrões rígidos de segurança e confidencialidade a fim de proteger as informações dos usuários. Durante toda a sua navegação, você estará em um ambiente virtual seguro. \n Com relação à segurança no tráfego de dados, toda transação que envolver pagamento, seja por cartão de crédito ou não, estará encriptada com a tecnologia SSL (Secure Socket Layer). Isso significa que só a loja tem acesso a estes dados. Quando você preenche os dados e nos envia, eles são criptografados, o que faz com que durante o trajeto pela Internet fiquem irreconhecíveis, assegurando a confidencialidade. \n Os números de cartões de crédito fornecidos são registrados diretamente no banco de dados das administradoras de cartão, não permitindo o acesso a essas informações por parte da MILLI. Ao informar os dados para a administradora, essa realiza a verificação da transação on-line e retorna apenas se a compra está liberada ou não. Somos munidos com o Certificado de Segurança THAWTE, um dos certificados digitais mais modernos. Clique aqui para ver o certificado atualizado. A loja online foi desenvolvida para você realizar suas compras da maneira mais fácil e 100% segura"
+      }
+    },         
+    //
+    "disclosure-state-indicator": {
+      "props": {
+        "Show": "icon-caret#down",
+        "Hide": "icon-caret#up"
+      }
+    },
+    "icon-caret#down": {
+      "props": {
+        "orientation": "down"
+      }
+    },
+    "icon-caret#up": {
+      "props": {
+        "orientation": "up"
+      }
+    }
+
+  }
+  

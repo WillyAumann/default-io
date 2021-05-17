@@ -1,0 +1,20 @@
+{    
+  "store.custom#sobre": {
+    "path": "/quem-somos"
+  },
+  "store.custom#loja-fisica-festabox": {
+    "path": "/nossas-lojas"
+  },  
+  "store.custom#privacidade": {
+    "path": "/politica-privacidade"
+  },
+  "store.custom#troca-devolucao": {
+    "path": "/trocas-e-devolucoes"
+  },
+  "store.custom#duvidas": {
+    "path": "/duvidas-frequentes"
+  },
+  "store.custom#cartao-fidelidade": {
+    "path": "/cartao-fidelidade"
+  }  
+}

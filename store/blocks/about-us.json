@@ -1,0 +1,273 @@
+{
+  "store.custom#sobre": {
+    "blocks": [
+      "rich-text#title-about",
+      "flex-layout.row#sobre-01",
+      "flex-layout.row#title-02",
+      "flex-layout.row#sobre-02",
+      "flex-layout.row#sobre-03",
+      "flex-layout.row#sobre-04",
+      "flex-layout.row#sobre-05",
+      "flex-layout.row#sobre-06",
+      "flex-layout.row#sobre-07",
+      "flex-layout.row#sobre-08",
+      "flex-layout.row#sobre-09",
+      "flex-layout.row#sobre-10"
+    ]
+  },
+  "rich-text#title-about":{
+        "props":{
+          "text":"Nossa História",
+          "blockClass": "title-about"
+        }
+      },
+      "flex-layout.row#sobre-01":{
+        "children":[
+            "info-card#um"
+        ],
+        "props":{
+          "blockClass":"info-card-sobre-01"
+        }
+      },
+      "flex-layout.row#title-02":{
+        "children":[
+          "rich-text#title-02"
+        ],
+        "props":{
+          "horizontalAlign": "center",
+          "blockClass":"title-02-intitucional"
+        }
+      },
+          "rich-text#title-02":{
+            "props":{
+              "text":"VANTAGENS PARA VOCÊ!",
+              "textAlignment":"center",
+              "textPosition": "center",              
+              "font": "t-heading-3",
+              "blockClass":"title-vantagens"
+            }
+          },
+      "flex-layout.row#sobre-02":{
+        "children":[
+            "info-card#dois"
+        ],
+        "props":{
+          "blockClass":"row-quem-somos-default"
+        }
+      },      
+      "flex-layout.row#sobre-03":{
+        "children":[
+            "info-card#tres"
+        ],
+        "props":{
+          "blockClass":"row-quem-somos-default"
+        }
+      },            
+      "flex-layout.row#sobre-04":{
+        "children":[
+            "info-card#quatro"
+        ],
+        "props":{
+          "blockClass":"row-quem-somos-default"
+        }
+      }, 
+      "flex-layout.row#sobre-05":{
+        "children":[
+            "info-card#cinco"
+        ],
+        "props":{
+          "blockClass":"row-quem-somos-default"
+        }
+      }, 
+      "flex-layout.row#sobre-06":{
+        "children":[
+            "info-card#seis"
+        ],
+        "props":{
+          "blockClass":"row-quem-somos-chamada"
+        }
+      },                       
+      "flex-layout.row#sobre-07":{
+        "children":[
+            "info-card#sete"
+        ],
+        "props":{
+          "blockClass":"row-quem-somos-default"
+        }
+      },                       
+      "flex-layout.row#sobre-08":{
+        "children":[
+            "info-card#oito"
+        ],
+        "props":{
+          "blockClass":"row-quem-somos-default"
+        }
+      },            
+      "flex-layout.row#sobre-09":{
+        "children":[
+            "info-card#nove"
+        ],
+        "props":{
+          "blockClass":"row-quem-somos-default"
+        }
+      },            
+      "flex-layout.row#sobre-10":{
+        "children":[
+            "info-card#dez"
+        ],
+        "props":{
+          "blockClass":"row-quem-somos-chamada"
+        }
+      },            
+        "info-card#um": {
+          "props": {
+            "id": "info-card-quem-somos",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://millionline.vtexassets.com/assets/vtex.file-manager-graphql/images/1b2f51e0-2ac4-47ae-8ab2-311b6051d6b3___f7640c1a87a52f8d3a557b9c83b0719e.png",
+            "headline": "Conheça a Milli",
+            "subhead":"No mercado de moda íntima desde 2003, a Milli tem como prioridade o atendimento personalizado, buscando atender as necessidades de cada cliente. Em 2007, após processo de modernização, aumentou de forma expressiva sua participação no setor de moda íntima desenvolvendo parcerias, importando produtos, participando de grandes eventos e criando, inclusive, uma linha própria. A Milli se destaca entre distribuidores e atacadistas do setor com preços acessíveis e ótimas condições de pagamento. Possuí uma grande variedade de produtos e trabalha com quatro linhas principais: Moda íntima, Moda Praia, Sleepwear e Sex Shop. Entre em contato, pelo telefone Milli, chat ou whatsapp, que te contamos um pouco mais sobre a gente! ;)",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode": "",
+            "blockClass": "info-card-quem-somos",
+            "textAlignment": "center"
+          }
+        },
+        "info-card#dois": {
+          "props": {
+            "id": "info-card-mais-completa",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/quem-somos-carrossel01.jpg?v=635800055866130000",
+            "headline": "AINDA MAIS COMPLETA!",
+            "subhead":"De cara nova, a Milli traz nessa nova fase uma variedade ainda maior nos setores de moda íntima, sex shop, moda praia e sleepwear. Visando sempre qualidade e preço bom, a empresa trabalha com as melhores marcas do mercado, são mais de 10.000 produtos disponíveis para o revendedor, além de 3 marcas exclusivas que você só encontra na Milli. O cenário atual da empresa conta com duas lojas físicas localizadas no bairro do Brás, uma loja online e mais de 100 colaboradores para tornar sua experiência de compra ainda melhor!",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode": "",
+            "blockClass": "info-card-mais-completa",
+            "textAlignment": "left"
+          }
+        },
+        "info-card#tres": {
+          "props": {
+            "id": "info-card-mais-exclusiva",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/quem-somos-carrossel02.jpg?v=635800055858870000",
+            "headline": "AINDA MAIS EXCLUSIVA!",
+            "subhead":"A Milli traz uma variedade maior de produtos de suas marcas exclusivas, expandindo suas linhas e lançando campeões de venda! Conheça um pouco mais das nossas marcas exclusivas: NUBE: Cosméticos e acessórios com apelo divertido e foco no custo x benefício. BLUM: Cosméticos e Sex Toys Premium, com foco nos detalhes. Para clientes exigentes. DAKINI: Fantasias e acessórios com modelos diferenciados e sofisticados.",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode": "",
+            "blockClass": "info-card-mais-completa",
+            "textAlignment": "left"
+          }
+        },
+        "info-card#quatro": {
+          "props": {
+            "id": "info-card-mais-rentavel",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/quem-somos-carrossel03.jpg?v=635800064169870000",
+            "headline": "AINDA MAIS RENTÁVEL!",
+            "subhead":"Os melhores preços do mercado para o revendedor potencializar suas vendas. São mais de 10.000 produtos disponíveis para o revendedor, além de 3 marcas exclusivas. A empresa garante ótimos preços em relação a seus concorrentes e regularmente faz comparativos. As marcas exclusivas da Milli possuem descontos progressivos que podem chegar até 15% + 5% em pagamento a vista e frete grátis acima de R$500.",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode": "",
+            "blockClass": "info-card-mais-completa",
+            "textAlignment": "left"
+          }
+        },
+        "info-card#cinco": {
+          "props": {
+            "id": "info-card-mais-personalizada",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/quem-somos-carrossel04.jpg?v=635800064162730000",
+            "headline": "AINDA MAIS PERSONALIZADA!",
+            "subhead":"• Brindes e prêmios exclusivos: regularmente a Milli lança campanhas promocionais e distribui brindes e prêmios aos revendedores, tais como, bolsas, agendas, catálogos, produtos eletrônicos, sachês de novidades, entre muitos outros! • Materiais de apoio de venda: O catálogo Ponto M é uma seleção dos melhores e mais vendidos produtos. • Eventos e palestras de capacitação profissional: A Milli organiza um evento anual para seus revendedores com palestras sobre os mais diversos temas para capacitar o profissional de vendas. A empresa também está sempre presente em feiras do ramo trazendo novidades e orientações para o mercado. • Atendimento via site, whatsapp e telefone: A Milli mantém 3 canais à disposição do revendedor para facilitar a comunicação.",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode": "",
+            "blockClass": "info-card-mais-completa",
+            "textAlignment": "left"
+          }
+        },
+        "info-card#seis": {
+          "props": {
+            "id": "info-card-mais-chamada",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "O grando compromisso da Milli é com a excelência nos serviços prestados. Prezamos pela qualidade no atendimento e experiência de compra, sempre voltados a satisfazer o revendedor.",
+            "subhead":"SAMER GHOSN - DIRETOR",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode": "",
+            "blockClass": "info-card-chamada",
+            "textAlignment": "center"
+          }
+        },
+        "info-card#sete": {
+          "props": {
+            "id": "info-card-seguranca",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/ids/253664/privacidade-e-seguranca-quem-somos.jpg?v=635810247786900000",
+            "headline": "PRIVACIDADE E SEGURANÇA!",
+            "subhead":"RECONHECEMOS A IMPORTÂNCIA DA PRIVACIDADE DE NOSSOS CLIENTES E, PENSANDO NISSO, ESTABELECEMOS UMA POLÍTICA PARA PROTEGER SUAS INFORMAÇÕES. Qualquer informação fornecida pelos usuários será coletada e guardada de acordo com os mais rígidos padrões de segurança e confiabilidade. As Informações pessoais que nos forem fornecidas, pelos usuários, serão coletadas por meios éticos e legais. Essa coleta poderá ter um ou mais propósitos, dos quais nossos usuários serão informados;",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode": "",
+            "blockClass": "info-card-mais-completa",
+            "textAlignment": "left"
+          }
+        },
+        "info-card#oito": {
+          "props": {
+            "id": "info-card-troca",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/ids/253665/politica-de-troca-quem-somos.jpg?v=635810236518430000",
+            "headline": "POLÍTICAS DE TROCA!",
+            "subhead":"NA MILLI, A SATISFAÇÃO DO CLIENTE ESTÁ ACIMA DE TUDO! Por isso, a troca de um produto por simples arrependimento é possível. Porém, para sua própria segurança, e por motivos de higiene (no caso de produtos de uso íntimo), existem alguns procedimentos que devem ser seguidos CASO deseje trocar seu produto.",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode": "",
+            "blockClass": "info-card-mais-completa",
+            "textAlignment": "left"
+          }
+        },
+        "info-card#nove": {
+          "props": {
+            "id": "info-card-entrega",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://millionline.vteximg.com.br/arquivos/ids/253666/formas-de-entrega-quem-somos.jpg?v=635810248375570000",
+            "headline": "FORMAS DE ENTREGA",
+            "subhead":"ENTREGAMOS EM TODO O TERRITÓRIO NACIONAL. Realizamos nossas entregas por transportadoras contratadas por nossos clientes, Correios ou Motoboy, dependendo do local. Entregamos em todo território nacional.Não é possível agendar data e horário para entregas.",
+            "callToActionText": "",
+            "callToActionUrl": "",
+            "callToActionMode": "",
+            "blockClass": "info-card-mais-completa",
+            "textAlignment": "left"
+          }
+        },
+        "info-card#dez": {
+          "props": {
+            "id": "info-card-seja-revendedor",
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "",
+            "headline": "'Só tenho elogios! Excelente seleção de produtos, variedade, atendimento impecável e agilidade na postagem de pedidos. Destaque para equipe que sempre responde prontamente! Melhor fornecedor que já trabalhei!'",
+            "subhead":"Iris Grillo",
+            "callToActionText": "QUERO SER UM(A) REVENDEDOR(A)",
+            "callToActionUrl": "/teste",
+            "callToActionMode": "button",
+            "blockClass": "info-card-chamada",
+            "textAlignment": "center"
+          }
+        }
+
+}

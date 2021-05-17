@@ -1,0 +1,452 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+      "flex-layout.row#footer-1-desktop":{
+          "children":[
+            "flex-layout.col#footer-col1",
+            "flex-layout.col#footer-col2",
+            "flex-layout.col#footer-col3",
+            "flex-layout.col#footer-col4"
+          ],
+          "props":{
+            "blockClass":"content-footer"
+          }
+      },
+          "flex-layout.col#footer-col1":{
+            "children":[
+              "rich-text#title-customerService",
+              "rich-text#link-aboutUs",
+              "rich-text#link-callCenter",
+              "rich-text#link-store",
+              "rich-text#link-revendedor"
+            ]
+          },
+              "rich-text#title-customerService":{
+                "props":{
+                  "text": "EMPRESA",
+                  "blockClass": "title-footer"
+                }
+              },
+              "rich-text#link-aboutUs":{
+                "props":{
+                  "text": "[Sobre Nós](/sobre)",
+                  "blockClass": "link-footer"
+                }
+              },              
+              "rich-text#link-callCenter":{
+                "props":{
+                  "text": "[Central de Atendimento](https://wa.me/5541999409593)",
+                  "blockClass": "link-footer"
+                }
+              },       
+              "rich-text#link-store":{
+                "props":{
+                  "text": "[Nossas Lojas](/nossas-lojas)",
+                  "blockClass": "link-footer"
+                }
+              }, 
+              "rich-text#link-revendedor":{
+                "props":{
+                  "text": "[Seja um Revendedor](vantagens-de-revendedor)",
+                  "blockClass": "link-footer"
+                }
+              },               
+              "flex-layout.col#footer-col2":{
+                "children":[
+                  "rich-text#title-information",
+                  "rich-text#link-privacy",
+                  "rich-text#link-exchangeReturns",
+                  "rich-text#link-cartao-fidelidade",
+                  "rich-text#link-doubts"
+                ]
+              },        
+              "rich-text#title-information":{
+                "props":{
+                  "text": "INFORMAÇÕES",
+                  "blockClass": "title-footer"
+                }
+              }, 
+              "rich-text#link-privacy":{
+                "props":{
+                  "text": "[Política de Privacidade](/politica-privacidade)",
+                  "blockClass": "link-footer"
+                }
+              },                   
+              "rich-text#link-exchangeReturns":{
+                "props":{
+                  "text": "[Trocas e Devoluçoes](/trocas-e-devolucoes)",
+                  "blockClass": "link-footer"
+                }
+              },      
+              "rich-text#link-cartao-fidelidade":{
+                "props":{
+                  "text": "[Cartão Fidelidade](/cartao-fidelidade)",
+                  "blockClass": "link-footer"
+                }
+              },                                      
+              "rich-text#link-doubts":{
+                "props":{
+                  "text": "[Dúvidas](/duvidas-frequentes)",
+                  "blockClass": "link-footer"
+                }
+              },                                                                                   
+          "flex-layout.col#footer-col3":{
+            "children":[
+              "flex-layout.row#row-sac",
+              "flex-layout.row#row-email",
+              "rich-text#social",
+              "flex-layout.row#social-row"
+            ]
+          },   
+              "flex-layout.row#row-sac":{
+                "children":[
+                  "flex-layout.col#sac-img",
+                  "flex-layout.col#sac-text"
+                ],
+                "props":{
+                  "blockClass":"content-row-footer"
+                }
+              },
+                  "flex-layout.col#sac-img":{
+                    "children":[
+                      "image#icon-sac"
+                    ],
+                    "props":{
+                      "width":"12%",
+                      "blockClass":"icon-footer"
+                    }
+                  },
+                      "image#icon-sac":{
+                        "props":{
+                          "src":"https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/84368bb1-a9b8-40ef-be41-0f8b5534e9d0___02847dd5eb262ae1cd8e76364c5db2f3.png",
+                          "alt":"SAC"
+                        }
+                      },
+                  "flex-layout.col#sac-text":{
+                    "children":[
+                      "rich-text#title-sac",
+                      "rich-text#tel-sac"
+                    ]
+                  },   
+                      "rich-text#title-sac":{
+                          "props":{
+                            "text":"SAC",
+                            "blockClass": "title-footer"
+                          }
+                      },
+                      "rich-text#tel-sac":{
+                        "props":{
+                          "text":"(11) 3322 0851",
+                          "blockClass":"text-footer"
+                        }
+                      },
+                      //////
+              "flex-layout.row#row-email":{
+                "children":[
+                  "flex-layout.col#email-img",
+                  "flex-layout.col#email-text"
+                ],
+                "props":{
+                  "blockClass":"content-row-footer"
+                }
+              },
+                          "flex-layout.col#email-img":{
+                            "children":[
+                              "image#icon-email"
+                            ],
+                            "props":{
+                              "width":"12%",
+                              "blockClass":"icon-footer"
+                            }
+                          },
+                              "image#icon-email":{
+                                "props":{
+                                  "src":"https://millionline.vtexassets.com/assets/vtex.file-manager-graphql/images/2dc4f705-953b-44e7-a942-d6ad2225a117___32639b3936d33752ce2563b2b6efc3ec.png",
+                                  "alt":"Whatsapp"
+                                }
+                              },
+                          "flex-layout.col#email-text":{
+                            "children":[
+                              "rich-text#title-email",
+                              "rich-text#email-text"
+                            ]
+                          },   
+                              "rich-text#title-email":{
+                                  "props":{
+                                    "text":"Whatsapp",
+                                    "blockClass": "title-footer"
+                                  }
+                              },
+                              "rich-text#email-text":{
+                                "props":{
+                                  "text":"(11) 9 7153 6696",
+                                  "blockClass":"text-footer"
+                                }
+                              },                      
+                      //////
+              "flex-layout.row#social-row":{
+                "children":[
+                  "flex-layout.col#col-facebook",
+                  "flex-layout.col#col-instagram"                  
+                ]
+              },
+              "rich-text#social":{
+                "props":{
+                  "text":"Redes Sociais",
+                  "blockClass": "title-footer"
+                }
+              },  
+              "flex-layout.col#col-facebook":{
+                "children":[
+                  "rich-text#facebook-links"                  
+                ],
+                "props":{
+                  "width":"10%"
+                }
+              },
+              "flex-layout.col#col-instagram":{
+                "children":[
+                  "rich-text#instagram-links"                  
+                ],
+                "props":{
+                  "width":"10%"
+                }                
+              },
+              "rich-text#facebook-links":{
+                "props":{
+                  "text":"[![Facebook Festabox](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/0a53a71b-bef3-44f6-b95e-a617192ff952___bab41bf03293e037d6f3dc13fd6728bb.png)](https://www.facebook.com/lojamilli)"
+                }
+              },
+              "rich-text#instagram-links":{
+                "props":{
+                  "text":"[![Instagram Festabox](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/b36e86eb-a0c6-48b4-8553-b9d5b8e599d2___fcc5c06e872e31c4f19c5b0268b7db5d.png)](https://www.instagram.com/lojamilli/)"
+                }
+              },          
+          "flex-layout.col#footer-col4":{
+            "children":[
+              "rich-text#pagamentos",
+              "image#formas-pagamento",
+              "rich-text#certificados",
+              "flex-layout.row#selos-rodape"
+              // "image#certificados",
+            ],
+            "props":{
+              "blockClass":"footer-col"
+            }
+          },   
+              "rich-text#pagamentos":{
+                "props":{
+                  "text":"Formas de Pagamento",
+                  "blockClass": "title-footer"
+                }
+              },
+              "image#formas-pagamento":{
+                "props":{
+                  "src":"https://millionline.vtexassets.com/assets/vtex.file-manager-graphql/images/973157b5-c6c3-4bf6-a9b9-55e401ba0b29___1b6db8595dda6f05a9239b788e363503.png",
+                  "alt":"Formas de Pagamento",
+                  "blockClass": "payments-mod"
+                }
+              },
+              "rich-text#certificados":{
+                "props":{
+                  "text":"Segurança",
+                  "blockClass": "title-footer"
+                }
+              },  
+              "flex-layout.row#selos-rodape":{
+                "children":[
+                  "flex-layout.col#selo-vtex",
+                  "flex-layout.col#selo-clearSale"
+                ]
+              },
+              "flex-layout.col#selo-vtex":{
+                "children":[
+                  "image#certificados",
+                  "image#certificados2"    
+                ]
+              },            
+              "image#certificados":{
+                "props":{
+                  "src":"https://millionline.vtexassets.com/assets/vtex.file-manager-graphql/images/75fa4c92-b984-44bf-a2c4-2283cc33ee0b___0100b978dd43505774592c7ada93423d.webp",
+                  "alt":"Certificados de Segurança",
+                  "blockClass":"certificados"
+                }
+              },
+              "image#certificados2":{
+                "props":{
+                  "src":"https://millionline.vteximg.com.br/arquivos/selo-pci-vtex.png?v=636202459400400000",
+                  "alt":"Selo PCI de segurança",
+                  "blockClass":"certificados"
+                }
+              },              
+              "flex-layout.col#selo-clearSale":{
+                "children":[
+                  "image#clearSale"
+                ]
+              },
+              "image#clearSale":{
+                "props":{
+                  "src":"https://millionline.vtexassets.com/assets/vtex.file-manager-graphql/images/cdb02948-bd23-4e5a-95be-f16abc65c1b3___35556c51f75c5aedf320300c73a668cb.png",
+                  "alt":"Compre & Confie",
+                  "link": "https://selo.clearsale.com.br/Loja/ExibirDetalhesLoja/6aae64a0-cb55-486c-98aa-7ae00a08ac43",
+                  "blockClass":"certificados"
+                }
+              },              
+      ///////
+      "flex-layout.row#footer-2-desktop":{
+        "children":[
+          "rich-text#copyright"
+        ],
+        "props":{
+          "blockClass":"content-footer2"
+        }
+      },
+          "rich-text#copyright":{
+            "props":{
+              "text":"Aqui deve ser inserido os dados da loja, como CNPJ, endereço, Copyright, etc. - ESTE É UM TEMPLATE EXEMPLO, NÃO DEVE SER UTILIZADO PARA COMPRA.",
+              "blockClass":"copyright"
+            }
+          },
+                                                
+  "footer-layout.mobile": {
+    "children": [
+      "image#selo-festabox",
+      "flex-layout.row#social-footer",
+      "rich-text#link-ajuda",
+      "rich-text#link-sobre",
+      "rich-text#link-pagamento",
+      "rich-text#link-seguranca",
+      "rich-text#link-codigo-defesa",
+      "rich-text#link-politica-privacidade",
+      "rich-text#copyright-mobile",
+      "rich-text#vtex-mobile",
+      "rich-text#pci-mobile"   
+    ],
+    "props":{
+      "blockClass":"footer-container-mobile"
+    }
+  },
+      "image#selo-festabox":{
+        "props":{
+          "src":"https://via.placeholder.com/210x35",
+          "alt":"LOGO DA EMPRESA"          
+        }
+      },
+  "flex-layout.row#social-footer":{
+    "children":[
+      "flex-layout.col#social-instagram",
+      "flex-layout.col#social-facebook"
+      //"flex-layout.col#social-blog"
+    ],
+    "props":{
+      "blockClass":"row-social-footer"
+    }
+  },
+        "flex-layout.col#social-instagram":{
+          "children":[
+            "rich-text#link-instagram-footer"
+          ],
+          "props":{
+            "blockClass":"col-social-footer"
+          }    
+        },
+        "flex-layout.col#social-facebook":{
+          "children":[
+            "rich-text#link-facebook-footer"
+          ],
+          "props":{
+            "blockClass":"col-social-footer"
+          }        
+        },
+        "flex-layout.col#social-blog":{
+          "children":[
+            "rich-text#link-blog-footer"
+          ],
+          "props":{
+            "blockClass":"col-social-footer"
+          }        
+        },  
+            "rich-text#link-instagram-footer":{
+              "props":{
+                "text":"[![Instagram](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/81202128-acd7-4384-a0c2-1594cdc206b1___f2c90af659df5018f15293ed2b1d7cf6.png)](https://www.instagram.com/lojamilli/)",
+                "blockClass":"link-footer-social"
+              }
+            },
+            "rich-text#link-facebook-footer":{
+              "props":{
+                "text":"[![Facebook](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/9bb2b108-11f0-4489-92f9-8896a47fae8a___668ed8b1b3d1ba3ad076766a0e6d7e3a.png)](https://www.facebook.com/millicatalogo)",
+                "blockClass":"link-footer-social"
+              }
+            },
+            "rich-text#link-blog-footer":{
+              "props":{
+                "text":"[![Blog](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/e9e18208-bad0-4393-b5e6-6ae500b4e3f5___dc7d618c2793dbab476431f479ffe45d.png)](http://blog.festabox.com.br/)",
+                "blockClass":"link-footer-social"
+              }
+            },
+  "rich-text#link-ajuda":{
+    "props":{
+      "text":"[Precisa de Ajuda?](/ajuda)",
+      "blockClass":"link-footer-mobile"
+    }
+  },
+  "rich-text#link-sobre":{
+    "props":{
+      "text":"[Sobre nós](/quem-somos)",
+      "blockClass":"link-footer-mobile"
+    }
+  },   
+  "rich-text#link-pagamento":{
+    "props":{
+      "text":"[Trocas e Devoluções](/trocas-e-devolucoes)",
+      "blockClass":"link-footer-mobile"
+    }
+  },
+  "rich-text#link-seguranca":{
+    "props":{
+      "text":"[Segurança](/segurança)",
+      "blockClass":"link-footer-mobile"
+    }
+  },
+  "rich-text#link-codigo-defesa":{
+    "props":{
+      "text":"[Código de defesa do consumidor](http://www.planalto.gov.br/ccivil_03/leis/l8078.htm)",
+      "blockClass":"link-default-footer-mobile"
+    }
+  },
+  "rich-text#link-politica-privacidade":{
+    "props":{
+      "text":"[Política de Privacidade](/politica-privacidade)",
+      "blockClass":"link-default-footer-mobile"
+    }
+  },
+  "rich-text#copyright-mobile":{
+    "props":{
+      "text":"Aqui deve ser inserido os dados da loja, como CNPJ, endereço, Copyright, etc. - ESTE É UM TEMPLATE EXEMPLO, NÃO DEVE SER UTILIZADO PARA COMPRA.",
+      "blockClass":"copyright-mobile"
+    }
+  },
+  "rich-text#vtex-mobile":{
+    "props":{
+      "text":"![Plataforma VTEX](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/199393d5-43ac-48fd-9443-67c14a14c511___001db68e499d528c5faf0cc8f89ce483.png)",
+      "blockClass":"selo-vtex-mobile"
+    }
+  },
+  "rich-text#pci-mobile":{
+    "props":{
+      "text":"![Certificado PCI](https://festabox.vtexassets.com/assets/vtex.file-manager-graphql/images/5d27d3ce-231d-4a97-b3af-0903107393c6___f284d2779b03c1db289bec38eac2208a.png)",
+      "blockClass":"selo-pci-mobile"
+    }
+  }
+   
+}
